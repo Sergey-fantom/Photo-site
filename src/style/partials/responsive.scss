@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+  .hidden-md{
+    display: none;
+  }
+  header{
+    .container-fluid{
+      .left_header_info{
+        height: 100%;
+        .logo{
+          height: 100%;
+          padding-top: 15px;
+          margin-right: 0;
+          float: left;
+          margin-right: 15px;
+        }
+        .head_tel{
+          margin-right: 0;
+          margin-top: 10px;
+        }
+        a:not(.logo){          
+          margin-right: 0;
+          float: left;
+          padding-left: 24px;
+          font-size: 12px;
+        }
+        .head_mail{
+          display: none;
+        }
+      }
+      .right_header_info{
+        width: 70px;
+        margin-left: 0px;
+      }
+    }
+  }	
+  .main_slider_big{
+    .slide_item{
+      height: 500px;
+      min-height: 500px;
+      .slide_text{
+        max-width: 100%;
+        .big{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  .big_menu{
+    width: 100%;
+  }
+  .footer{
+    .footer_menu{
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,.2);
+      li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+        a{
+          font-size: 16px;
+        }
+      }
+    }
+    .footer_contacts{
+      padding-right: 50px;
+      a{
+        font-size: 16px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .tour_item{
+    margin-bottom: 25px;
+    .text{
+      height: 200px;
+    }
+  }
+  .subscribe_form{
+    .subscribe_form_wrapp{
+      form{
+        input[type=text]{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .tour_detail{
+    text-align: left;
+    .detail_title{
+      font-size: 24px;
+    }
+    .top_banner{
+      height: auto;
+      img{
+        height: auto;
+      }
+    }
+  }
+}

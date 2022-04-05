@@ -1,0 +1,21 @@
+{
+  "name": "land_layouts",
+  "description": "folder for some layouts",
+  "main": "index.js",
+  "authors": [
+    "Sergey"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "animate.css": "animation.css#^3.7.0"
+  }
+}
